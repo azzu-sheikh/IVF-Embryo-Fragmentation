@@ -1,4 +1,4 @@
-````markdown
+
 <div align="center">
 
 # 🧬 AI-Powered IVF Embryo Grading System
@@ -66,7 +66,7 @@ A custom **PyTorch backend** merges segmentation masks using:
 
 ```python
 torch.logical_or()
-````
+```
 
 This ensures:
 
