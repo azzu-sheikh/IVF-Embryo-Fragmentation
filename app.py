@@ -244,7 +244,7 @@ st.markdown(f"""
 # Load model
 @st.cache_resource
 def load_model():
-    return YOLO('best (1).pt')
+    return YOLO('best1.pt')
 
 model = load_model()
 
