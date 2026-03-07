@@ -1,5 +1,5 @@
 # Import libs
-import cv2
+#import cv2
 import torch
 import pandas as pd
 import numpy as np
@@ -328,8 +328,10 @@ with c_right:
                 with b1: st.plotly_chart(draw_meter(pct), use_container_width=True)
                 with b2:
                     # CUSTOM HTML/CSS RENDER FOR SEGMENTED IMAGE
-                    annotated_img_cv = cv2.cvtColor(result.plot(), cv2.COLOR_BGR2RGB)
-                    pil_img = Image.fromarray(annotated_img_cv)
+                    #annotated_img_cv = cv2.cvtColor(result.plot(), cv2.COLOR_BGR2RGB)
+                    #pil_img = Image.fromarray(annotated_img_cv)
+                    annotated=result.plot()[...,::-1]
+                    pil_img=Image.fromarray(annotated)
                     img_base64 = get_image_base64(pil_img)
                     
                     st.markdown(f"""
