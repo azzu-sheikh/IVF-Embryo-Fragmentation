@@ -2,8 +2,9 @@
 <div align="center">
 
 # 🧬 AI-Powered IVF Embryo Grading System
+Helping the smallest beginnings find their best start.
 
-**A state-of-the-art computer vision pipeline and clinical dashboard for automating *in-vitro fertilization (IVF)* embryo quality assessment**
+**A state-of-the-art AI companion for the IVF lab. By turning complex segmentation into simple, actionable clinical grades, this project helps take the guesswork out of embryo assessment—making the journey to parenthood a little more data-driven and a lot more certain**
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=Streamlit&logoColor=white)
